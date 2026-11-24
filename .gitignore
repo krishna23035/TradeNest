@@ -1,0 +1,43 @@
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies and build files
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Duplicate project folders and ZIP
+/Stock-Predictor-Model/
+/Stock-Predictor-Model 2/
+/Stock-Predictor-Model.zip
+
+# Deployment and temporary files
+/site-deploy/
+/supabase/.temp/
+.vercel/
+.netlify/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+/docs/TradeNest_Synopsis.pdf
